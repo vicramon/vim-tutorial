@@ -1,5 +1,3 @@
-# Searching
-
 ## Basic Search
 
 Search is an invaluable tool that happens to be very easy in Vim.

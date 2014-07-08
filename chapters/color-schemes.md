@@ -1,5 +1,3 @@
-# Color Schemes
-
 ## Basic Usage
 
 You have to like the look of your terminal if you're going to be in it all
@@ -35,5 +33,3 @@ Get it here: https://github.com/tomasr/molokai
 
 Some other popular color schemes are Railscasts, Badwolf, Vividchalk,
 Codeschool, and Pyte.
-
-

@@ -1,5 +1,3 @@
-# Additional Resources
-
 There are many resources out there to help you learn and master Vim. Here
 are some of my favorites:
 

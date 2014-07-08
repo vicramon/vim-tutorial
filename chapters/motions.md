@@ -1,5 +1,3 @@
-# Chapter 1: Motions
-
 Learning the motions is the first step in learning Vim. Motions specify a direction and a distance. When used alone they simply move the cursor. However, they can also be combined with actions, as we'll see later.
 
 ## Basic Motion

@@ -1,5 +1,3 @@
-# Plugins
-
 I could write an entirely different guide just covering plugins, so I'm
 just going to provide an overview of some of the most popular Vim plugins.
 

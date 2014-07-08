@@ -1,5 +1,3 @@
-# Custom Modifications
-
 ## Custom Mappings
 
 Vim allows you to map any key to any other key. For example:

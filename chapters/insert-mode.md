@@ -1,5 +1,3 @@
-# Insert Mode
-
 Vim has multiple different modes. All of the keys do different things in each mode. The mode you're in when you're just moving around is called Normal Mode. To insert new text you'll need to switch into Insert Mode.
 
 ## Undo / Redo

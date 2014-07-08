@@ -1,5 +1,3 @@
-# Replace and Substitute
-
 Replace and substitute are two additional actions.
 
 ## Replace

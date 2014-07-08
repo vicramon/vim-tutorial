@@ -1,5 +1,3 @@
-# Selections
-
 There are three types of selections you can make in Vim: visual, visual
 line, and visual block.  Selections are a core feature that you will come to
 love.

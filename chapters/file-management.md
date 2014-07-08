@@ -1,5 +1,3 @@
-# File Management
-
 ## Saving
 
 To save your changes to a file type :w and hit enter (w for write).

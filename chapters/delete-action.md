@@ -1,5 +1,3 @@
-# Delete Action
-
 Actions are the verbs of Vim -- they actually do things. They can be
 combined with motions to get the exact result you want. Delete is the first
 action I'll show you.

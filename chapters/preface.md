@@ -1,5 +1,3 @@
-# Preface
-
 Welcome to my Vim Tutorial! Hopefully you'll learn a thing or two.
 
 ## How To Use this Tutorial
