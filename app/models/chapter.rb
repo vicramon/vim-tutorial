@@ -2,7 +2,7 @@ class Chapter
 
   def self.all
     [
-      'Introduction',
+      'Preface',
       'Motions',
       'Insert Mode',
       'Delete',
@@ -30,6 +30,11 @@ class Chapter
 
   def initialize(name)
     @name = better_titleize(name)
+  end
+
+  def full_name
+    return name if index == 0
+    "Chapter #{index}: #{name}"
   end
 
   def text
