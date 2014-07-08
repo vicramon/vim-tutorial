@@ -28,18 +28,18 @@ Examples:
 `d` is works really well with `t` and `f`.
 
 `df<character>` will delete everything from the cursor to (and including) the
-first occurence of `<character>.`
+first occurence of that character
 
 `dt<character>` will delete everything from the cursor till the first
-occurence of `<character>.`
+occurence of that character
 
 Examples:
 
-`dt.` delete till next `.`
+`dt.` delete till next .
 
-`dt)` delete till next `)`
+`dt)` delete till next )
 
-`dta` delete till next `a`
+`dta` delete till next a
 
 ## Prepending a Count
 
@@ -51,6 +51,6 @@ You can prepend a count to this command to repeat it on multiple lines:
 
 `2dd` or `3dd` can remove a paragraph, but you're probably better off using a text object for that, which we'll cover shortly.
 
-## Delete to end of line
+## Delete to End of Line
 
 `D` will delete from your cursor location to the end of the line

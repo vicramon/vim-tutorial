@@ -1,30 +1,31 @@
-# Change Actions
+The change action functions exactly the same as delete but with one major difference: it puts you in Insert Mode after doing the delete. This is helpful when you want to delete text then immediately start adding new text.
 
 ## Basic Usage
 
-Change is like delete, but it puts you in insert mode immediately after
-doing the delete. This is helpful when you want to delete text, then
-immediatley replace it with something else.
-
-c<motion> will change the text specified by that motion.
+`c<motion>` will change the text specified by that motion.
 
 Examples:
 
-cw will change a word.
-c$ will change to the end of a line
-c0 will change to the begining of a line
+`cw` changes a word.
 
-Note: like D with delete, C will also change to the end of a line
+`c$` changes to the end of a line
 
-## Using change with t and f
+`c0` changes to the beginning of a line
 
-Combining c with t and f is one of the most useful commands in Vim.
+## Change to End of Line
 
-ct<character> change up till that character
-cf<character> change up to (and including) that character
+`C` will change text to the end of the current line
+
+## Use Change with t and f
+
+`ct<character>` changes up till that character
+
+`cf<character>` changes up to (and including) that character
 
 Examples:
 
-ct. change till next .
-ct) change till next )
-cta change till next a
+`ct.` change till next .
+
+`ct)` change till next )
+
+`cta` change till next a
