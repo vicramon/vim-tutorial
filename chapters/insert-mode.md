@@ -1,42 +1,44 @@
 # Insert Mode
 
-Vim is a modal editor, meaning that it has different modes. The mode you're
-in when you're just moving around is called "Normal Mode". To insert new
-text, we'll need act like a superhero and change costumes into... INSERT
-MODE.
+Vim has multiple different modes. All of the keys do different things in each mode. The mode you're in when you're just moving around is called Normal Mode. To insert new text you'll need to switch into Insert Mode.
 
 ## Undo / Redo
 
 Before we start modifying text, you should know these two things:
 
-u undo
-control-r redo
+`u` is undo
 
-Now you know how to undo any crazy changes you make to this file. Just hold
-u until you're back to the original. Note that u and control-r only work in
-normal mode.
+`Ctrl-r` is redo
 
+Now you can undo any craziness that occurs. Just hold `u` until you're back to the original.
 
 ## Basic Insert
 
-i switches you into insert mode wherever the cursor is.
-a will put you in insert mode one space after the cursor
-<escape> puts you back in normal mode.
+`i` switches you into insert mode at the cursor
 
-You will know that you are in insert mode if you see "-- INSERT --" at the
-bottom of Vim.
+`a` puts you in insert mode one space after the cursor
 
-=== Advanced Insert
+`<escape>` puts you back in normal mode.
 
-The cool thing about insert mode is that there are many ways to get into
-it, each of which will put you in insert mode AND move you to the right
+
+## Advanced Insert
+
+The neat thing about Insert Mode is that there are many ways to get into
+it, each of which will put you in Insert Mode *and* move you to the right
 spot to insert code.
 
-I will put you in insert mode at the beginning of a line.
-A will put you in insert mode at the end of a line.
-o will put you in insert mode on a new line (think "open")
-O (that's capital o, not zero) will put you in insert mode on a new line
-above your current line.
+`I` puts you in insert mode at the beginning of a line
 
-That's it for insert mode. If you find your pinky getting tired of hitting
-escape you can use control-c or control-[ instead.
+`A` puts you in insert mode at the end of a line
+
+`o` puts you in insert mode on a new line (think "open")
+
+`O` puts you in insert mode on a new line above your current line.
+
+## Alternate Escape Routes
+
+If you find your pinky getting tired of hitting `escape` you can use one of these instead:
+
+`Ctrl-c`
+
+`Ctrl-[`
