@@ -2,4 +2,6 @@
 
 Live at [http://vim.vicramon.com](http://vim.vicramon.com)
 
-Found a mistake? Submit a pull request! All the content is in `/chapters`.
+## Contributing
+
+Found a mistake? Submit a pull request! All of the content is in `/chapters`.
