@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: vim-tutorial_development
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: vim-tutorial_test
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: vim-tutorial_production
+  host: localhost

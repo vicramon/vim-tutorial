@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %title Vic Ramon's Vim Tutorial
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = favicon_link_tag 'favicon.ico'
+    = csrf_meta_tags
+
+  %body
+    .top_line
+    %article#left_logo
+      = link_to root_path do
+        .line1 Vic Ramon's
+        .line2 Vim Tutorial
+
+    %article#github
+      = link_to "http://github.com/vicramon/vim-tutorial" do
+        = image_tag 'icons/github_light.png'
+
+    = yield
+
+    .footer_spacing
+    %footer

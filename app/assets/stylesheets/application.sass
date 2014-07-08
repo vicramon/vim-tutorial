@@ -1,0 +1,179 @@
+@import "whitespace-reset", "github", "toggle"
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,400italic)
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro)
+
+html
+  position: relative
+  min-height: 100%
+
+$app_width: 88%
+
+body
+  font-size: 16px
+  color: #222
+  font-family: Roboto
+  margin: 0 0 65px
+
+.top_line
+  height: 7px
+  background: #09F300
+  padding: 0 12px
+
+article#github
+  position: absolute
+  top: 20px
+  right: 20px
+
+article#left_logo
+  position: absolute
+  top: 20px
+  left: 20px
+  a
+    color: #aaa
+    text-decoration: none
+    &:hover
+      color: #333
+    .line1, .line2
+      text-transform: uppercase
+    .line1
+      font-size: 15px
+    .line2
+      font-weight: 600
+      font-size: 19px
+
+footer
+  height: 30px
+  position: absolute
+  background: #eee
+  left: 0
+  padding: 0
+  bottom: 0
+  width: 100%
+
+header
+  height: 47px
+  border-bottom: 7px solid #09F300
+  width: 800px
+  margin: 0 auto
+  padding: 0 12px
+  article
+    margin: 0 auto
+    .logo
+      padding: 6px 0 0 0
+    nav
+      padding: 12px 0 0 0
+      float: right
+      font-family: "Maven Pro"
+      font-weight: medium
+      a, a:hover, a:visited, a:active
+        margin-right: 30px
+        color: #333
+
+a, a:visited, a:active
+  color: #236FFF
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+p
+  margin: 0 0 20px 0
+  line-height: 1.7
+  color: #333
+
+h1, h2
+  font-family: "Roboto"
+
+h1
+  font-size: 26px
+  font-weight: bold
+  padding: 0 0 20px 0
+
+h2
+  font-size: 21px
+  color: #222
+  padding: 0 0 12px 0
+  font-weight: bold
+
+
+section
+  margin: 0 auto
+  width: 650px
+
+section#chapter
+  padding: 27px 0 0 0
+  line-height: 1.7
+  color: #333
+  ul
+    padding-left: 20px
+    padding-bottom: 20px
+    li
+      list-style-type: disc
+  article#markdown
+    padding-bottom: 40px
+  nav
+    padding: 0 0 35px 0
+    text-align: center
+    position: relative
+    height: 20px
+    .back, .next, .toc
+      display: inline-block
+    .back
+      float: left
+    .next
+      float: right
+    .toc
+      position: absolute
+      margin-left: -63px
+      left: 50%
+      top: 0
+      a
+        color: #777
+
+section#marketing
+  padding: 38px 0 0 0
+  article
+    background: white
+    width: 580px
+    margin: 0 auto
+    .logo
+      padding: 0 0 25px
+    .logo + img
+      padding-bottom: 20px
+    h1
+      padding-bottom: 25px
+  article#chapters
+    padding-top: 15px
+    li
+      display: block
+      padding-bottom: 15px
+
+.footer_spacing
+  height: 60px
+
+code, pre
+  font-family: "Monaco", "Consolas", "Ubuntu Mono", monospace
+  font-size: 14px
+
+code
+  background: #E8E8E8
+  padding: 2px 5px
+  color: black
+
+pre
+  padding: 10px 14px 11px
+  margin: 0 0 20px
+  border-radius: 4px
+  overflow-x: auto
+
+article#social_buttons
+  img
+    padding-right: 25px
+
+.gray_line
+  background: #ddd
+  height: 1px
+  margin: 30px 0 15px
+  width: 100%
+
+.comment_info
+  margin: 0 0 15px 0

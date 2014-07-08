@@ -1,0 +1,19 @@
+%section#marketing
+  %article
+    .logo
+      = image_tag 'big_logo.png'
+
+    %h1 Introduction
+    %p
+      Welcome! This tutorial provides an introduction to the Ember JS framework. It shows you how to build an Ember app with a Ruby on Rails backend while explaining all the underlying concepts along the way.
+    %p
+      Check it out and please send your feedback to #{mail_to 'vic@vicramon.com'} or
+      tweet #{link_to "@vicramon", 'http://twitter.com/vicramon'}.
+
+    %p
+      = link_to "Start reading &#8594;".html_safe, chapter_path('introduction')
+
+    %article#chapters
+      %h1 Chapters
+      %p= link_to 'All Chapters', chapters_all_path
+      = render 'chapters'
