@@ -4,11 +4,11 @@ Text objects are Vim's representation of groups of text.
 
 These are some of the text objects you'll use the most:
 
-`w` word
+`w` represents a word
 
-`s` sentence
+`s` represents a sentence
 
-`p` paragraph
+`p` represents a paragraph
 
 You specify how you want an action to be applied with `a` or `i`:
 
@@ -16,7 +16,7 @@ You specify how you want an action to be applied with `a` or `i`:
 
 `i` means in, and the action will be applied only to the text
 
-This is how you actually use text objects:
+You can use text objects with the following pattern:
 
 `<action><specifier><text object>`
 
@@ -34,7 +34,7 @@ deleted, which you probably don't want it you're trying to change a word.
 
 ## String-based Text objects
 
-A word is small and a paragraph is large, is there anything in between? Of course there is. You can use delimiters to specify text objects.
+You can also use delimiters to specify text objects.
 
 Available delimiters:
 
