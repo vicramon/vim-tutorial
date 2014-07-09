@@ -98,5 +98,3 @@ If you end up creating a bunch of personal mappings and settings then I
 highly suggest that you also make your vimrc a plugin. It's very easy, and
 it keeps your code under version control and accessible from any other
 computer.
-
-
