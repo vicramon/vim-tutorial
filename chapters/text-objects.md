@@ -22,15 +22,17 @@ You can use text objects with the following pattern:
 
 Examples:
 
-`dap` Delete all paragraph.
+`dap` will delete an entire paragraph
 
-`ciw` Change in word.
+`ciw` will change a word
 
+<div><textarea>
+Type ciw to change the word that the cursor is on.
+The cursor can be anywhere inside the word.
 
-Text objects can do precise work quickly. For example, `dap `is a great way to quickly delete a method.
-
-Note that if you do `caw` instead of `ciw` the succeeding space will be
-deleted, which you probably don't want it you're trying to change a word.
+(Unfortunately dap does not work in this Vim simulator.
+Try it in real Vim.)
+</textarea></div>
 
 ## String-based Text objects
 
@@ -59,6 +61,14 @@ Examples:
 `ci]` Change inside closest brackets
 
 `ci}` Change inside closest braces
+
+<div><textarea>
+(Try changing inside these delimiters)
+
+[Try changing inside these delimiters]
+
+{Try changing inside these delimiters}
+</textarea></div>
 
 Note that if you do `ca)` instead of `ci)` then the parentheses will be
 deleted.

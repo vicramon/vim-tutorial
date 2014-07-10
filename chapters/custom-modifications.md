@@ -10,17 +10,17 @@ We don't want to keep this mapping, so let's get rid of it.
 `:unmap x`
 
 When mapping commands you should almost always prefix the mapping with
-'nore', which stands for non-recursive. This means that the mapping will
+`nore`, which stands for non-recursive. This means that the mapping will
 look to the true vim commands for the sequence instead of
 looking at any other vim mappings. This prevents any unwanted recursion or unexpected consequences
-from mapping commands. A typical mapping should look like this:
+from mapping commands. A typical mapping will look like this:
 
 `:noremap <keystroke to map> <keystroke to use>`
 
 If you try `:noremap x p`, you'll see that `x` will will do a put. However,
-if you enter insert mode then type `x` you will see `x`, not `p`. That's because
-mappings default to normal mode only. If you want to make a mapping
-specifically for insert mode, you would have to do this:
+if you enter Insert Mode then type `x` you will see `x`, not `p`. That's because
+mappings default to Normal Mode only. If you want to make a mapping
+specifically for Insert Mode, you would have to do this:
 
 `:inoremap <keystroke to map> <keystroke to use>`
 
@@ -61,6 +61,14 @@ as another key, use a dash. For example, to map `Ctrl-l` to `Ctrl-l` + `w`
 you would do this:
 
 `:noremap <c-l> <c-w>l`
+
+## Map Something to Nothing
+
+If you are want to change your habits in Vim, one of the best things you can do is map the key you don't want to use to `<NOP>`. This stands for "no operation", and it will make the key do nothing.
+
+Let's say you want to try to use Ctrl-c intead of escape. This mapping will help you greatly:
+
+`:noremap <esc> <NOP>`
 
 ## Vimrc
 

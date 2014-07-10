@@ -6,10 +6,14 @@ action I'll show you.
 
 `x` deletes the character under the cursor
 
+<div><textarea>
+Delete some of this text with x
+</textarea></div>
+
 ## Delete
 
-While `x` is good for simple deletions, what if you need to delete more
-things? Use `d` instead:
+While `x` is good for simple character deletions, what if you need to delete more
+than that? Use `d` instead:
 
 `d<motion>` will delete text covered by `<motion>`
 
@@ -23,6 +27,12 @@ Examples:
 
 `d0` deletes to the beginning of the line.
 
+<div><textarea>
+Use dw to delete words.
+
+Use d$ to delete to the end of the line.
+</textarea></div>
+
 ## Delete with t and f
 
 `d` is works really well with `t` and `f`.
@@ -33,13 +43,19 @@ first occurence of that character
 `dt<character>` will delete everything from the cursor till the first
 occurence of that character
 
-Examples:
+<div><textarea>
+Hit df. to delete to next .
 
-`dt.` delete till next .
+Hit df) to delete to next )
 
-`dt)` delete till next )
+Hit dfa delete to next a
 
-`dta` delete till next a
+Hit dt. to delete till next .
+
+Hit dt) to delete till next )
+
+Hit dta delete till next a
+</textarea></div>
 
 ## Prepending a Count
 
@@ -51,6 +67,17 @@ You can prepend a count to this command to repeat it on multiple lines:
 
 `2dd` or `3dd` can remove a paragraph, but you're probably better off using a text object for that, which we'll cover shortly.
 
+<div><textarea>
+Type dd to delete this enter line
+
+Type 2dd to delete these two lines
+Here's a line
+</textarea></div>
+
 ## Delete to End of Line
 
-`D` will delete from your cursor location to the end of the line
+`D` will delete from your cursor's location to the end of the line. It's a handy shortcut for `d$`.
+
+<div><textarea>
+Type D to delete from your current location to the end of the current line.
+</textarea></div>

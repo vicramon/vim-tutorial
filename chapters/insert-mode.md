@@ -1,4 +1,4 @@
-Vim has multiple different modes. All of the keys do different things in each mode. The mode you're in when you're just moving around is called Normal Mode. To insert new text you'll need to switch into Insert Mode.
+Vim has multiple modes. Keys do different things in different modes. The mode you're in when you're just moving around is called Normal Mode. To insert new text you'll need to switch into Insert Mode.
 
 ## Undo / Redo
 
@@ -8,7 +8,7 @@ Before we start modifying text, you should know these two things:
 
 `Ctrl-r` is redo
 
-Now you can undo any craziness that occurs. Just hold `u` until you're back to the original.
+Now you can undo any craziness that occurs. Just hold `u` until you're back to where you started.
 
 ## Basic Insert
 
@@ -16,8 +16,13 @@ Now you can undo any craziness that occurs. Just hold `u` until you're back to t
 
 `a` puts you in insert mode one space after the cursor
 
-`<escape>` puts you back in normal mode.
+`escape` puts you back in Normal Mode.
 
+<div><textarea>
+Add some text in here with i and a.
+
+Get back to Normal Mode with escape.
+</textarea></div>
 
 ## Advanced Insert
 
@@ -33,6 +38,12 @@ spot to insert code.
 
 `O` puts you in insert mode on a new line above your current line.
 
+<div><textarea>
+I, A, o, and O help you quickly jump to where you want to insert text.
+
+Try them in here.
+</textarea></div>
+
 ## Alternate Escape Routes
 
 If you find your pinky getting tired of hitting `escape` you can use one of these instead:
@@ -40,3 +51,9 @@ If you find your pinky getting tired of hitting `escape` you can use one of thes
 `Ctrl-c`
 
 `Ctrl-[`
+
+<div><textarea>
+Enter Insert Mode then hit Ctrl-c to exit it.
+
+Enter Insert Mode then hit Ctrl-[ to exit it.
+</textarea></div>

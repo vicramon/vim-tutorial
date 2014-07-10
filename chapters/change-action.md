@@ -12,9 +12,21 @@ Examples:
 
 `c0` changes to the beginning of a line
 
+<div><textarea>
+Type cw to delete a word then go into insert mode.
+
+Try c$ on this line.
+
+Try c0 on this line
+</textarea></div>
+
 ## Change to End of Line
 
 `C` will change text to the end of the current line
+
+<div><textarea>
+C functions like D, but with change instead of delete.
+</textarea></div>
 
 ## Use Change with t and f
 
@@ -22,10 +34,10 @@ Examples:
 
 `cf<character>` changes up to (and including) that character
 
-Examples:
+<div><textarea>
+Type ct. to change till next .
 
-`ct.` change till next .
+Type ct) to change till next )
 
-`ct)` change till next )
-
-`cta` change till next a
+Type cta to change till next a
+</textarea></div>
