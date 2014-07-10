@@ -4,7 +4,7 @@ $ ->
 
     $('textarea').each ->
       CodeMirror.fromTextArea @,
-        lineNumbers: false
+        lineNumbers: true
         lineWrapping: true
         mode: "text/x-csrc"
         vimMode: true
