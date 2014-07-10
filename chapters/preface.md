@@ -1,4 +1,4 @@
-Welcome to my Vim Tutorial! Hopefully you'll learn a thing or two.
+Welcome to my Vim Tutorial!
 
 ## How To Use this Tutorial
 

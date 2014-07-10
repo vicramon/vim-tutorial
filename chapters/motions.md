@@ -1,4 +1,4 @@
-Learning the motions is the first step in learning Vim. Motions specify a direction and a distance. When used alone they simply move the cursor. However, they can also be combined with actions, as we'll see later.
+Learning the motions is the first step in mastering Vim. Motions specify a direction and a distance. When used alone they simply move the cursor. However, they can also be combined with actions, as we'll see later.
 
 ## Basic Motion
 
@@ -12,36 +12,41 @@ Let's start with basic motions. Try these out:
 
 `k` moves one character up (think "kick it up")
 
-You can hold these keys down to keep moving. You can get around a file with
-just `h`, `j`, `k`, and `l`, but it's not very efficient. Lets go over a few ways to get around
-faster.
+You can hold these keys down to keep moving. 
 
 <div><textarea>
-Use h, j, k, and l to move around in here.
+Click inside this box, then use h, j, k, and l to move around in here.
 
 Here's another line.
 
 Here's another line.
 </textarea></div>
 
+You can get around a file with
+just `h`, `j`, `k`, and `l`, but it's not very efficient. Lets go over a few ways to get around
+faster.
+
 ## Speedy Motion
 
-`{` moves one paragraph up
-
 `}` moves one paragraph down
+
+`{` moves one paragraph up
 
 Now we're screaming! `}` and `{` are great for getting around methods and functions quickly.
 
 <div><textarea>
 Use { and } to traverse these paragraphs
 
-A paragraph in Vim just means contiguous lines
+A paragraph in Vim just means touching lines
+Here's a line
 Here's a line
 
 Now this is a new paragraph
 Here's a line
+Here's a line
 
-Now this is a new paragraph
+Now this is the last paragraph
+Here's a line
 Here's a line
 </textarea></div>
 
@@ -78,6 +83,8 @@ Here's a line
 
 Here's a line
 </textarea></div>
+
+You might want to consider changing your Caps Lock key to Control. If you use Vim, having easy access to Control will be much more valuable to you than having a Caps Lock key. In Mac OS X you can do this by going to System Preferences > Keyboard > Modifier Keys.
 
 ## Top / Bottom of File
 
@@ -150,8 +157,8 @@ Here is a crazy.(word)[with] special characters.
 
 ## Precise motion with f and t
 
-The things I've shown you so far are great, but you still have to use `h` or `l` to get to a specific character if it's not at the beginning or end of the word.  That can add up to a lot
-of keystrokes. Precise motion can minimize those keystrokes.
+The things I've shown you so far are great, but you would still have to use `h` or `l` to get to a specific character if it's not at the beginning or end of the word.  That can add up to a lot
+of keystrokes. That's where `f` and `t` come in.
 
 ### f is for find
 
@@ -166,30 +173,31 @@ You can go to the next and previous occurences of the character you searched for
 
 <div><textarea>
 Type fb on the beginning of this line. It should take you to the first b.
+
+Hit ; to go to the next b. Hit , to go back.
+
+Notice how ; and , won't take you to another line.
 </textarea></div>
 
 ### t is for till
 
-Next let's talk about `t`. `t` is like `f`, but it takes you up *till* the
+`t` is like `f`, but it takes you up *till* the
 character you search for.
 
 `t<character>` moves you to the spot immediately before the next occurrence
 of `<character>` (think "t is till")
 
 <div><textarea>
-Type tb on the beginning of this line. It should take you to immediately before
-the first b. Type ; to go to the next b. Type , to go to the previous b.
+Type tb on the beginning of this line.
 
-Note that f and t will only look for the character on the current line.
+Type ; to go to the next b. Type , to go to the previous b.
+
+Type t. to go to the first . on this line
+
+Type t) to go to the first ) on this line
+
+Type ta to go to the first a on this line
 </textarea></div>
-
-More examples:
-
-`t.`
-
-`t)`
-
-`ta`
 
 `f` and `t` are some of the most useful motions. You'll see their true power
 once we combine them with actions in future chapters.
