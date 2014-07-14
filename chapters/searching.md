@@ -11,11 +11,21 @@ searching for, then hit enter to go to the first match.
 
 `enter` takes you to the first match.
 
-Cycle through matches:
+Cycle through matches with:
 
 `n` go to next match
 
 `N` go to previous match
+
+<div><textarea>
+Try searching for "Waldo" in this box.
+
+This is another line with the word Waldo.
+
+Hit n to go to the next search result featuring Waldo.
+
+Hit N to go back to the previous Waldo.
+</textarea></div>
 
 ## A Primer on Options
 
@@ -39,7 +49,7 @@ You can inquire about the current state of an option:
 
 There are two options that I recomend you turn on for searching.
 
-First, set search to ignore the case of characters.
+First, set search to ignore the case of characters:
 
 `:set ignorecase`, or `:set ic`
 
@@ -63,3 +73,13 @@ Vim. We'll cover vimrc's in a later chapter.
 ## Search with *
 
 `*` will search for the word under the cursor. You can still use `n` and `N` to cycle through the results.
+
+<div><textarea>
+Put your cursor over Waldo then hit *
+
+You can hit * again to go to the next Waldo.
+
+You can also use n to go to the next Waldo.
+
+Hit N to go back to the previous Waldo.
+</textarea></div>

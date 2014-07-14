@@ -2,35 +2,45 @@
 
 Vim's yank and put are like copy and paste.
 
-## Basic Yank
+## Basic Yank and Put
+
+### Yank
 
 `y<motion>` will yank that specified text.
 
-`yy` will yank the entire line (much like `dd`)
+`yy` will yank the entire line (like `dd`).
 
-Examples:
+Yank also works well with text objects.
 
-`yw`   yank word
+`yi(` will yank inside parentheses.
 
-`y$`   yank to end of line
+`yi"` will yank inside quotes.
 
-`2yy`  yank the next 2 lines
-
-`yt.`  yank till .
-
-`yfg`  yank to next occurrence of g
-
-## Basic Put
+### Put
 
 `p`  paste the last yank after the cursor
 
 `P`  paste the last yank *before* the cursor
 
+<div><textarea>
+Type yw to yank to the end of a word.
+
+Type yiw to yank the entire word, regardless of where the cursor is.
+
+Type yi( to yank (something inside parentheses).
+
+Type p to paste it after the cursor.
+
+Type P to paste it before the cursor.
+</textarea></div>
+
 ## Pasting with Registers
 
 Vim keeps track of all the things you have recently deleted in the "register".
-Delete a few things, they type :reg to see the register. You will see output
+Delete a few things, they type `:reg` to see the register. You will see output
 like the following:
+
+(this doesn't work in the the javascript Vim plugin, try it in real Vim)
 
 ```
 --- Registers ---
