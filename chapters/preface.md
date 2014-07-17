@@ -2,8 +2,7 @@ Welcome to my Vim Tutorial!
 
 ## How To Use this Tutorial
 
-I've placed Javascript-simulated Vim boxes below each section so you can practice each new command.
- The only way you will remember all of these commands is to use them repeatedly, so spend some time playing and experimenting with each command you learn.
+The best way to use this tutorial is to have it open alongside a vim window so you can practice each new command. The only way you will remember all of these commands is to use them repeatedly, so spend some time playing and experimenting with each command you learn.
 
 ## Check out the Manual
 
