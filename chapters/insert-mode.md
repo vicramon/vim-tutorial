@@ -18,12 +18,6 @@ Now you can undo any craziness that occurs. Just hold `u` until you're back to w
 
 `escape` puts you back in Normal Mode.
 
-<div><textarea>
-Add some text in here with i and a.
-
-Get back to Normal Mode with escape.
-</textarea></div>
-
 ## Advanced Insert
 
 The neat thing about Insert Mode is that there are many ways to get into
@@ -38,12 +32,6 @@ spot to insert code.
 
 `O` puts you in insert mode on a new line above your current line.
 
-<div><textarea>
-I, A, o, and O help you quickly jump to where you want to insert text.
-
-Try them in here.
-</textarea></div>
-
 ## Alternate Escape Routes
 
 If you find your pinky getting tired of hitting `escape` you can use one of these instead:
@@ -51,9 +39,3 @@ If you find your pinky getting tired of hitting `escape` you can use one of thes
 `Ctrl-c`
 
 `Ctrl-[`
-
-<div><textarea>
-Enter Insert Mode then hit Ctrl-c to exit it.
-
-Enter Insert Mode then hit Ctrl-[ to exit it.
-</textarea></div>

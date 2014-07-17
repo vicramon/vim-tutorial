@@ -26,14 +26,6 @@ Examples:
 
 `ciw` will change a word
 
-<div><textarea>
-Type ciw to change the word that the cursor is on.
-The cursor can be anywhere inside the word.
-
-(Unfortunately dap does not work in this Vim simulator.
-Try it in real Vim.)
-</textarea></div>
-
 ## String-based Text objects
 
 You can also use delimiters to specify text objects.
@@ -61,14 +53,6 @@ Examples:
 `ci]` Change inside closest brackets
 
 `ci}` Change inside closest braces
-
-<div><textarea>
-(Try changing inside these delimiters)
-
-[Try changing inside these delimiters]
-
-{Try changing inside these delimiters}
-</textarea></div>
 
 Note that if you do `ca)` instead of `ci)` then the parentheses will be
 deleted.

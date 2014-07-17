@@ -17,16 +17,6 @@ Cycle through matches with:
 
 `N` go to previous match
 
-<div><textarea>
-Try searching for "Waldo" in this box.
-
-This is another line with the word Waldo.
-
-Hit n to go to the next search result featuring Waldo.
-
-Hit N to go back to the previous Waldo.
-</textarea></div>
-
 ## A Primer on Options
 
 You can turn an option on like this:
@@ -73,13 +63,3 @@ Vim. We'll cover vimrc's in a later chapter.
 ## Search with *
 
 `*` will search for the word under the cursor. You can still use `n` and `N` to cycle through the results.
-
-<div><textarea>
-Put your cursor over Waldo then hit *
-
-You can hit * again to go to the next Waldo.
-
-You can also use n to go to the next Waldo.
-
-Hit N to go back to the previous Waldo.
-</textarea></div>

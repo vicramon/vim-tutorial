@@ -14,14 +14,6 @@ Let's start with basic motions. Try these out:
 
 You can hold these keys down to keep moving. 
 
-<div><textarea>
-Click inside this box, then use h, j, k, and l to move around in here.
-
-Here's another line.
-
-Here's another line.
-</textarea></div>
-
 You can get around a file with
 just `h`, `j`, `k`, and `l`, but it's not very efficient. Lets go over a few ways to get around
 faster.
@@ -34,55 +26,11 @@ faster.
 
 Now we're screaming! `}` and `{` are great for getting around methods and functions quickly.
 
-<div><textarea>
-Use { and } to traverse these paragraphs
-
-A paragraph in Vim just means touching lines
-Here's a line
-Here's a line
-
-Now this is a new paragraph
-Here's a line
-Here's a line
-
-Now this is the last paragraph
-Here's a line
-Here's a line
-</textarea></div>
-
 ## Scrolling
 
 `Ctrl-u` scrolls up (think "u for up")
 
 `Ctrl-d` scrolls down (think "d for down")
-
-<div><textarea>
-Try scrolling up and down with Ctrl-u and Ctrl-d
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-</textarea></div>
 
 You might want to consider changing your Caps Lock key to Control. If you use Vim, having easy access to Control will be much more valuable to you than having a Caps Lock key. In Mac OS X you can do this by going to System Preferences > Keyboard > Modifier Keys.
 
@@ -92,24 +40,6 @@ You might want to consider changing your Caps Lock key to Control. If you use Vi
 
 `G` takes you to the bottom of the file
 
-<div><textarea>
-Go to the middle of this file then hit gg to get to the top.
-
-Then hit G to go to the bottom.
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-
-Here's a line
-</textarea></div>
-
 ## Line Motion
 
 `^` moves you to the first character in a line
@@ -117,14 +47,6 @@ Here's a line
 `0` moves you to the beginning of the entire line (think "0 is the beginning")
 
 `$` moves you to the end of the line (think "the buck stops here")
-
-<div><textarea>
-   Hit ^ to go to the first text on this line
-
-   Hit 0 to go to the very beginning of the line (column 0)
-
-   Hit $ to go to the end of this line
-</textarea></div>
 
 ## Word Motion
 
@@ -139,21 +61,6 @@ Here's a line
 You can capitalize any of these motions and they will skip across special
 characters. For example, `E` will skip across parentheses, whereas `e`
 will stop at each special character.
-
-<div><textarea>
-Hit w to go across these words. See how the cursor always goes to the
-first character?
-
-Hit e to go across these words. See how the cursor always goes to the
-last character?
-
-Hit b to go across these words. See how the cursor always goes to the
-first character?
-
-Skip across special characters by using W, E, and B:
-
-Here is a crazy.(word)[with] special characters.
-</textarea></div>
 
 ## Precise motion with f and t
 
@@ -171,14 +78,6 @@ You can go to the next and previous occurences of the character you searched for
 
 `,` moves to the previous occurrence
 
-<div><textarea>
-Type fb on the beginning of this line. It should take you to the first b.
-
-Hit ; to go to the next b. Hit , to go back.
-
-Notice how ; and , won't take you to another line.
-</textarea></div>
-
 ### t is for till
 
 `t` is like `f`, but it takes you up *till* the
@@ -186,18 +85,6 @@ character you search for.
 
 `t<character>` moves you to the spot immediately before the next occurrence
 of `<character>` (think "t is till")
-
-<div><textarea>
-Type tb on the beginning of this line.
-
-Type ; to go to the next b. Type , to go to the previous b.
-
-Type t. to go to the first . on this line
-
-Type t) to go to the first ) on this line
-
-Type ta to go to the first a on this line
-</textarea></div>
 
 `f` and `t` are some of the most useful motions. You'll see their true power
 once we combine them with actions in future chapters.
