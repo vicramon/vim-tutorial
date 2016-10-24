@@ -25,7 +25,7 @@ Examples:
 
 ## Delete with t and f
 
-`d` is works really well with `t` and `f`.
+`d` works really well with `t` and `f`.
 
 `df<character>` will delete everything from the cursor to (and including) the
 first occurence of that character
